@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6C7BF91FA0C6A300F3ADB5 /* Swipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A6C7BF81FA0C6A300F3ADB5 /* Swipe.cpp */; };
+		5A6C7BFD1FA0C6D500F3ADB5 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A6C7BFB1FA0C6D500F3ADB5 /* Tile.cpp */; };
+		5A6C7C021FA0FEAC00F3ADB5 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A6C7C011FA0FEAC00F3ADB5 /* data.txt */; };
+		5A6C7C041FA107AA00F3ADB5 /* map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A6C7C031FA107AA00F3ADB5 /* map.txt */; };
+		5A6C7C061FA118B800F3ADB5 /* img.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5A6C7C051FA118B800F3ADB5 /* img.icns */; };
+		5AFB4CFA1FA040AE0034ACD7 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB4CF91FA040AE0034ACD7 /* ResourcePath.mm */; };
+		5AFB4CFD1FA040AE0034ACD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB4CFC1FA040AE0034ACD7 /* main.cpp */; };
+		5AFB4D001FA040AE0034ACD7 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB4CFF1FA040AE0034ACD7 /* cute_image.jpg */; };
+		5AFB4D021FA040AE0034ACD7 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB4D011FA040AE0034ACD7 /* nice_music.ogg */; };
+		5AFB4D041FA040AE0034ACD7 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB4D031FA040AE0034ACD7 /* sansation.ttf */; };
+		5AFB4D061FA040AE0034ACD7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB4D051FA040AE0034ACD7 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A6C7BF81FA0C6A300F3ADB5 /* Swipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swipe.cpp; sourceTree = "<group>"; };
+		5A6C7BFA1FA0C6A800F3ADB5 /* Swipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swipe.h; sourceTree = "<group>"; };
+		5A6C7BFB1FA0C6D500F3ADB5 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		5A6C7BFC1FA0C6D500F3ADB5 /* Tile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
+		5A6C7C011FA0FEAC00F3ADB5 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		5A6C7C031FA107AA00F3ADB5 /* map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+		5A6C7C051FA118B800F3ADB5 /* img.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = img.icns; sourceTree = "<group>"; };
+		5AFB4CF41FA040AE0034ACD7 /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFB4CF81FA040AE0034ACD7 /* 2048-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2048-Info.plist"; sourceTree = "<group>"; };
+		5AFB4CF91FA040AE0034ACD7 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		5AFB4CFB1FA040AE0034ACD7 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		5AFB4CFC1FA040AE0034ACD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AFB4CFF1FA040AE0034ACD7 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		5AFB4D011FA040AE0034ACD7 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		5AFB4D031FA040AE0034ACD7 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		5AFB4D051FA040AE0034ACD7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFB4CF01FA040AE0034ACD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFB4CEA1FA040AE0034ACD7 = {
+			isa = PBXGroup;
+			children = (
+				5AFB4CF61FA040AE0034ACD7 /* sfml */,
+				5AFB4CF51FA040AE0034ACD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFB4CF51FA040AE0034ACD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB4CF41FA040AE0034ACD7 /* 2048.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFB4CF61FA040AE0034ACD7 /* sfml */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB4CF91FA040AE0034ACD7 /* ResourcePath.mm */,
+				5AFB4CFB1FA040AE0034ACD7 /* ResourcePath.hpp */,
+				5A6C7BFA1FA0C6A800F3ADB5 /* Swipe.h */,
+				5A6C7BF81FA0C6A300F3ADB5 /* Swipe.cpp */,
+				5A6C7BFB1FA0C6D500F3ADB5 /* Tile.cpp */,
+				5A6C7BFC1FA0C6D500F3ADB5 /* Tile.hpp */,
+				5AFB4CFC1FA040AE0034ACD7 /* main.cpp */,
+				5AFB4CFE1FA040AE0034ACD7 /* Resources */,
+				5AFB4CF71FA040AE0034ACD7 /* Supporting Files */,
+			);
+			path = sfml;
+			sourceTree = "<group>";
+		};
+		5AFB4CF71FA040AE0034ACD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6C7C051FA118B800F3ADB5 /* img.icns */,
+				5AFB4CF81FA040AE0034ACD7 /* 2048-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AFB4CFE1FA040AE0034ACD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A6C7C011FA0FEAC00F3ADB5 /* data.txt */,
+				5A6C7C031FA107AA00F3ADB5 /* map.txt */,
+				5AFB4CFF1FA040AE0034ACD7 /* cute_image.jpg */,
+				5AFB4D011FA040AE0034ACD7 /* nice_music.ogg */,
+				5AFB4D031FA040AE0034ACD7 /* sansation.ttf */,
+				5AFB4D051FA040AE0034ACD7 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFB4CF31FA040AE0034ACD7 /* 2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFB4D091FA040AE0034ACD7 /* Build configuration list for PBXNativeTarget "2048" */;
+			buildPhases = (
+				5AFB4CEF1FA040AE0034ACD7 /* Sources */,
+				5AFB4CF01FA040AE0034ACD7 /* Frameworks */,
+				5AFB4CF11FA040AE0034ACD7 /* Resources */,
+				5AFB4CF21FA040AE0034ACD7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2048;
+			productName = sfml;
+			productReference = 5AFB4CF41FA040AE0034ACD7 /* 2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFB4CEB1FA040AE0034ACD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.preston.xc;
+				TargetAttributes = {
+					5AFB4CF31FA040AE0034ACD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2E9CJGV68X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AFB4CEE1FA040AE0034ACD7 /* Build configuration list for PBXProject "2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AFB4CEA1FA040AE0034ACD7;
+			productRefGroup = 5AFB4CF51FA040AE0034ACD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFB4CF31FA040AE0034ACD7 /* 2048 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFB4CF11FA040AE0034ACD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB4D061FA040AE0034ACD7 /* icon.png in Resources */,
+				5AFB4D041FA040AE0034ACD7 /* sansation.ttf in Resources */,
+				5AFB4D021FA040AE0034ACD7 /* nice_music.ogg in Resources */,
+				5A6C7C041FA107AA00F3ADB5 /* map.txt in Resources */,
+				5A6C7C061FA118B800F3ADB5 /* img.icns in Resources */,
+				5AFB4D001FA040AE0034ACD7 /* cute_image.jpg in Resources */,
+				5A6C7C021FA0FEAC00F3ADB5 /* data.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AFB4CF21FA040AE0034ACD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFB4CEF1FA040AE0034ACD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB4CFD1FA040AE0034ACD7 /* main.cpp in Sources */,
+				5AFB4CFA1FA040AE0034ACD7 /* ResourcePath.mm in Sources */,
+				5A6C7BF91FA0C6A300F3ADB5 /* Swipe.cpp in Sources */,
+				5A6C7BFD1FA0C6D500F3ADB5 /* Tile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AFB4D071FA040AE0034ACD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		5AFB4D081FA040AE0034ACD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		5AFB4D0A1FA040AE0034ACD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "sfml/2048-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AFB4D0B1FA040AE0034ACD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "sfml/2048-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFB4CEE1FA040AE0034ACD7 /* Build configuration list for PBXProject "2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFB4D071FA040AE0034ACD7 /* Debug */,
+				5AFB4D081FA040AE0034ACD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFB4D091FA040AE0034ACD7 /* Build configuration list for PBXNativeTarget "2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFB4D0A1FA040AE0034ACD7 /* Debug */,
+				5AFB4D0B1FA040AE0034ACD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFB4CEB1FA040AE0034ACD7 /* Project object */;
+}
